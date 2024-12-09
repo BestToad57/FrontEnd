@@ -1,0 +1,90 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+h1 {
+    margin: 100px 0px 0px 0px;
+}
+
+.leftSection {
+    flex: 1;
+}
+
+.rightSection {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback, .customerService {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px grey; 
+}
+
+.feedback img, .customerService img {
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid white;
+}
+
+.feedback, .customerService div {
+    flex-grow: 1;
+}
+
+.email, .phone, .physicalLocation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 15px;
+    margin: 0;
+    max-width: 600px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px grey; 
+}
+
+.email img, .phone img, .physicalLocation img {
+    width: 40px;
+    height: auto;
+    object-fit: cover;
+}
+
+.email, .phone, .physicalLocation span {
+    font-size: 1rem;
+    color: dark grey;
+}
+
+.contactUs {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: grey;
+}

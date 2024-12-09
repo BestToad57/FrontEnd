@@ -1,0 +1,26 @@
+.navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.navi button {
+  padding: 10px 15px;
+  font-size: 1rm;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navi button:hover {
+  background-color: #4cbf4e; 
+  transform: scale(1.05); 
+}

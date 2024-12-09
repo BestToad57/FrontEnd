@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.orderImg {
+    max-width: 200px;
+    height: 150px; 
+    border-radius: 8px;
+}
+
+.specialImgSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1000px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black; 
+}
+
+.specialImg {
+    max-width: 200px; 
+    height: 150px; 
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: white;
+    display: block;
+}
+
+.ImageSection {
+    margin: 20px auto;
+    padding: 2px;
+    max-width: 1000px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black; 
+}
+
+.mainImages {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px auto;
+  }
+
+.imgContent {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.imgContent p {
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.Imgdescription {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 10px auto;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.imgDescription span {
+    text-align: center;
+  }
+
+button {
+    padding: 10px 20px;
+    background-color: #63ee6f;
+    color: rgb(255, 228, 228);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4cbf4e;
+}
